@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C423AA723C786FE0036BDAE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C423AA623C786FE0036BDAE /* User.swift */; };
+		2C423AAA23C7A46A0036BDAE /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C423AA923C7A46A0036BDAE /* UserServices.swift */; };
+		2C423AAE23C8DDEC0036BDAE /* CheckoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C423AAD23C8DDEC0036BDAE /* CheckoutVC.swift */; };
+		2C423AB123C8E9300036BDAE /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C423AAF23C8E9300036BDAE /* CartItemCell.swift */; };
+		2C423AB223C8E9300036BDAE /* CartItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C423AB023C8E9300036BDAE /* CartItemCell.xib */; };
+		2C423AB523C8EF760036BDAE /* StripeCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C423AB423C8EF760036BDAE /* StripeCart.swift */; };
+		2C5BCC7223A6033800A5DA0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BCC7123A6033800A5DA0D /* AppDelegate.swift */; };
+		2C5BCC7423A6033800A5DA0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BCC7323A6033800A5DA0D /* SceneDelegate.swift */; };
+		2C5BCC7623A6033800A5DA0D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BCC7523A6033800A5DA0D /* HomeVC.swift */; };
+		2C5BCC7923A6033800A5DA0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BCC7723A6033800A5DA0D /* Main.storyboard */; };
+		2C5BCC7B23A6033E00A5DA0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BCC7A23A6033E00A5DA0D /* Assets.xcassets */; };
+		2C5BCC7E23A6033E00A5DA0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BCC7C23A6033E00A5DA0D /* LaunchScreen.storyboard */; };
+		2C5BCC8C23A6038600A5DA0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BCC8B23A6038600A5DA0D /* AppDelegate.swift */; };
+		2C5BCC8E23A6038600A5DA0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BCC8D23A6038600A5DA0D /* SceneDelegate.swift */; };
+		2C5BCC9023A6038600A5DA0D /* AdminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BCC8F23A6038600A5DA0D /* AdminVC.swift */; };
+		2C5BCC9323A6038600A5DA0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BCC9123A6038600A5DA0D /* Main.storyboard */; };
+		2C5BCC9823A6038800A5DA0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BCC9623A6038800A5DA0D /* LaunchScreen.storyboard */; };
+		2C5BCC9E23A6043D00A5DA0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BCC7A23A6033E00A5DA0D /* Assets.xcassets */; };
+		2C5BCCA023A6078E00A5DA0D /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BCC9F23A6078E00A5DA0D /* LoginStoryboard.storyboard */; };
+		2C5BCCA223A9482B00A5DA0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BCCA123A9482B00A5DA0D /* GoogleService-Info.plist */; };
+		2C5BCCA823A9540B00A5DA0D /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BCCA723A9540B00A5DA0D /* RegisterVC.swift */; };
+		2C5BCCAA23A9548E00A5DA0D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BCCA923A9548E00A5DA0D /* LoginVC.swift */; };
+		2C5BCCAC23A955A600A5DA0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C5BCCAB23A955A500A5DA0D /* GoogleService-Info.plist */; };
+		2C73699823AAAF9600A5F308 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C73699723AAAF9600A5F308 /* RoundedViews.swift */; };
+		2C73699B23ACF9AB00A5F308 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C73699A23ACF9AB00A5F308 /* Extensions.swift */; };
+		2C73699F23AD0D8B00A5F308 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C73699D23AD0D8B00A5F308 /* ForgotPasswordVC.swift */; };
+		2C7369A023AD0D8B00A5F308 /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C73699E23AD0D8B00A5F308 /* ForgotPasswordVC.xib */; };
+		2C8D799723C0AC8900008BB4 /* Firebase +  extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D799623C0AC8900008BB4 /* Firebase +  extensions.swift */; };
+		2C8D799823C0AD9F00008BB4 /* Firebase +  extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D799623C0AC8900008BB4 /* Firebase +  extensions.swift */; };
+		2C8D799A23C0B3A900008BB4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D799923C0B3A900008BB4 /* Category.swift */; };
+		2C8D799B23C0B3A900008BB4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D799923C0B3A900008BB4 /* Category.swift */; };
+		2C8D799E23C0B5B400008BB4 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D799C23C0B5B400008BB4 /* CategoryCollectionViewCell.swift */; };
+		2C8D799F23C0B5B400008BB4 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D799C23C0B5B400008BB4 /* CategoryCollectionViewCell.swift */; };
+		2C8D79A023C0B5B400008BB4 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C8D799D23C0B5B400008BB4 /* CategoryCollectionViewCell.xib */; };
+		2C8D79A123C0B5B400008BB4 /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C8D799D23C0B5B400008BB4 /* CategoryCollectionViewCell.xib */; };
+		2CAC5AFA23C1CDD400CEB366 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC5AF923C1CDD400CEB366 /* Products.swift */; };
+		2CAC5AFB23C1CDD400CEB366 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC5AF923C1CDD400CEB366 /* Products.swift */; };
+		2CAC5AFD23C1CE0500CEB366 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC5AFC23C1CE0500CEB366 /* ProductsVC.swift */; };
+		2CAC5AFE23C1CE0500CEB366 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC5AFC23C1CE0500CEB366 /* ProductsVC.swift */; };
+		2CAC5B0123C1D07500CEB366 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC5AFF23C1D07500CEB366 /* ProductCell.swift */; };
+		2CAC5B0223C1D07500CEB366 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAC5AFF23C1D07500CEB366 /* ProductCell.swift */; };
+		2CAC5B0323C1D07500CEB366 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CAC5B0023C1D07500CEB366 /* ProductCell.xib */; };
+		2CAC5B0423C1D07500CEB366 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CAC5B0023C1D07500CEB366 /* ProductCell.xib */; };
+		2CE2DD3623C5F6BE0061C990 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2DD3423C5F6BE0061C990 /* ProductDetailVC.swift */; };
+		2CE2DD3723C5F6BE0061C990 /* ProductDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CE2DD3523C5F6BE0061C990 /* ProductDetailVC.xib */; };
+		2CE2DD3923C60DFA0061C990 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BCC7523A6033800A5DA0D /* HomeVC.swift */; };
+		2CE2DD3A23C60E9D0061C990 /* AdminVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BCC8F23A6038600A5DA0D /* AdminVC.swift */; };
+		2CE2DD3B23C60F7A0061C990 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2DD3423C5F6BE0061C990 /* ProductDetailVC.swift */; };
+		2CE2DD3C23C60F7E0061C990 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C73699723AAAF9600A5F308 /* RoundedViews.swift */; };
+		2CE2DD3D23C60F870061C990 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C73699A23ACF9AB00A5F308 /* Extensions.swift */; };
+		2CE2DD3F23C615EB0061C990 /* AddEditCategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2DD3E23C615EB0061C990 /* AddEditCategoriesVC.swift */; };
+		2CE6751C23C712C3008D46A1 /* AdminProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6751B23C712C3008D46A1 /* AdminProductsVC.swift */; };
+		2CE6751E23C7177E008D46A1 /* AddEditProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE6751D23C7177E008D46A1 /* AddEditProductsVC.swift */; };
+		2CFC810A23CD92D4003DBBA8 /*  StripeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFC810923CD92D3003DBBA8 /*  StripeAPI.swift */; };
+		2CFC810B23CE0ED1003DBBA8 /* UserServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C423AA923C7A46A0036BDAE /* UserServices.swift */; };
+		2CFC810C23CE1153003DBBA8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C423AA623C786FE0036BDAE /* User.swift */; };
+		2CFC810D23CE1166003DBBA8 /* StripeCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C423AB423C8EF760036BDAE /* StripeCart.swift */; };
+		9B9F990C88E934F7029B27AB /* Pods_artableadmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B657C9E946930DEFA83D47C4 /* Pods_artableadmin.framework */; };
+		AC320FCC3BA634F060B235C6 /* Pods_artable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E08BFAD38A5CF9ABBEFF23 /* Pods_artable.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A7331F7A951A9C95D4D3D28 /* Pods-artable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artable.release.xcconfig"; path = "Target Support Files/Pods-artable/Pods-artable.release.xcconfig"; sourceTree = "<group>"; };
+		2C423AA623C786FE0036BDAE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2C423AA923C7A46A0036BDAE /* UserServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServices.swift; sourceTree = "<group>"; };
+		2C423AAD23C8DDEC0036BDAE /* CheckoutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutVC.swift; sourceTree = "<group>"; };
+		2C423AAF23C8E9300036BDAE /* CartItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemCell.swift; sourceTree = "<group>"; };
+		2C423AB023C8E9300036BDAE /* CartItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CartItemCell.xib; sourceTree = "<group>"; };
+		2C423AB423C8EF760036BDAE /* StripeCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StripeCart.swift; sourceTree = "<group>"; };
+		2C5BCC6E23A6033800A5DA0D /* artable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = artable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5BCC7123A6033800A5DA0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C5BCC7323A6033800A5DA0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C5BCC7523A6033800A5DA0D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		2C5BCC7823A6033800A5DA0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C5BCC7A23A6033E00A5DA0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C5BCC7D23A6033E00A5DA0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C5BCC7F23A6033E00A5DA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5BCC8923A6038600A5DA0D /* artableadmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = artableadmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5BCC8B23A6038600A5DA0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C5BCC8D23A6038600A5DA0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C5BCC8F23A6038600A5DA0D /* AdminVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminVC.swift; sourceTree = "<group>"; };
+		2C5BCC9223A6038600A5DA0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C5BCC9723A6038800A5DA0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C5BCC9923A6038800A5DA0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C5BCC9F23A6078E00A5DA0D /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		2C5BCCA123A9482B00A5DA0D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2C5BCCA723A9540B00A5DA0D /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		2C5BCCA923A9548E00A5DA0D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = "../../../../Library/Mobile Documents/com~apple~CloudDocs/LoginVC.swift"; sourceTree = "<group>"; };
+		2C5BCCAB23A955A500A5DA0D /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "GoogleService-Info.plist"; path = "Plist/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2C73699723AAAF9600A5F308 /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		2C73699A23ACF9AB00A5F308 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2C73699D23AD0D8B00A5F308 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		2C73699E23AD0D8B00A5F308 /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		2C8D799623C0AC8900008BB4 /* Firebase +  extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Firebase +  extensions.swift"; sourceTree = "<group>"; };
+		2C8D799923C0B3A900008BB4 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		2C8D799C23C0B5B400008BB4 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C8D799D23C0B5B400008BB4 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		2CAC5AF923C1CDD400CEB366 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		2CAC5AFC23C1CE0500CEB366 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		2CAC5AFF23C1D07500CEB366 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		2CAC5B0023C1D07500CEB366 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		2CAC5B0523C1DD9D00CEB366 /* SceneDelegate copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SceneDelegate copy.swift"; sourceTree = "<group>"; };
+		2CE2DD3423C5F6BE0061C990 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		2CE2DD3523C5F6BE0061C990 /* ProductDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductDetailVC.xib; sourceTree = "<group>"; };
+		2CE2DD3E23C615EB0061C990 /* AddEditCategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditCategoriesVC.swift; sourceTree = "<group>"; };
+		2CE6751B23C712C3008D46A1 /* AdminProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminProductsVC.swift; sourceTree = "<group>"; };
+		2CE6751D23C7177E008D46A1 /* AddEditProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditProductsVC.swift; sourceTree = "<group>"; };
+		2CFC810923CD92D3003DBBA8 /*  StripeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " StripeAPI.swift"; sourceTree = "<group>"; };
+		414CE968657E3F57F51ECFD4 /* Pods-artableadmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artableadmin.release.xcconfig"; path = "Target Support Files/Pods-artableadmin/Pods-artableadmin.release.xcconfig"; sourceTree = "<group>"; };
+		80E08BFAD38A5CF9ABBEFF23 /* Pods_artable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_artable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B657C9E946930DEFA83D47C4 /* Pods_artableadmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_artableadmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC80801091F0BE7E06C50B7 /* Pods-artableadmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artableadmin.debug.xcconfig"; path = "Target Support Files/Pods-artableadmin/Pods-artableadmin.debug.xcconfig"; sourceTree = "<group>"; };
+		FC2E91B673EF07D356A6F5E8 /* Pods-artable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-artable.debug.xcconfig"; path = "Target Support Files/Pods-artable/Pods-artable.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C5BCC6B23A6033800A5DA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC320FCC3BA634F060B235C6 /* Pods_artable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5BCC8623A6038600A5DA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9F990C88E934F7029B27AB /* Pods_artableadmin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2817FC13B2B54879B111CBC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80E08BFAD38A5CF9ABBEFF23 /* Pods_artable.framework */,
+				B657C9E946930DEFA83D47C4 /* Pods_artableadmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C35501023E494B200043EED /* Firestore app  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Firestore app ";
+			sourceTree = "<group>";
+		};
+		2C423AA823C7A4530036BDAE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2C423AA923C7A46A0036BDAE /* UserServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2C423AB323C8EF650036BDAE /* Stripe */ = {
+			isa = PBXGroup;
+			children = (
+				2C423AB423C8EF760036BDAE /* StripeCart.swift */,
+				2CFC810923CD92D3003DBBA8 /*  StripeAPI.swift */,
+			);
+			path = Stripe;
+			sourceTree = "<group>";
+		};
+		2C5BCC6523A6033800A5DA0D = {
+			isa = PBXGroup;
+			children = (
+				2C35501023E494B200043EED /* Firestore app  */,
+				2C5BCC9D23A603A400A5DA0D /* Shared  */,
+				2C5BCC7023A6033800A5DA0D /* artable */,
+				2C5BCC8A23A6038600A5DA0D /* artableadmin */,
+				2C5BCC6F23A6033800A5DA0D /* Products */,
+				6429E3B5A6EA1CD54E13AD48 /* Pods */,
+				2817FC13B2B54879B111CBC5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C5BCC6F23A6033800A5DA0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C5BCC6E23A6033800A5DA0D /* artable.app */,
+				2C5BCC8923A6038600A5DA0D /* artableadmin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C5BCC7023A6033800A5DA0D /* artable */ = {
+			isa = PBXGroup;
+			children = (
+				2C423AB323C8EF650036BDAE /* Stripe */,
+				2C423AA823C7A4530036BDAE /* Services */,
+				2C73699C23AD0D4000A5F308 /* Xibs */,
+				2C5BCCA623A9539B00A5DA0D /* Storyboards */,
+				2C5BCCA523A9515600A5DA0D /* View */,
+				2C5BCCA323A9513200A5DA0D /* Controller */,
+				2C5BCCA123A9482B00A5DA0D /* GoogleService-Info.plist */,
+				2C5BCC7F23A6033E00A5DA0D /* Info.plist */,
+			);
+			path = artable;
+			sourceTree = "<group>";
+		};
+		2C5BCC8A23A6038600A5DA0D /* artableadmin */ = {
+			isa = PBXGroup;
+			children = (
+				2CE2DD4023C616060061C990 /* Controller */,
+				2C5BCC9123A6038600A5DA0D /* Main.storyboard */,
+				2C5BCC9623A6038800A5DA0D /* LaunchScreen.storyboard */,
+				2C5BCCAB23A955A500A5DA0D /* GoogleService-Info.plist */,
+				2C5BCC9923A6038800A5DA0D /* Info.plist */,
+			);
+			path = artableadmin;
+			sourceTree = "<group>";
+		};
+		2C5BCC9D23A603A400A5DA0D /* Shared  */ = {
+			isa = PBXGroup;
+			children = (
+				2C8D79A223C0B5C500008BB4 /* XIBS */,
+				2C5BCCA423A9513D00A5DA0D /* Model */,
+				2C73699923ACF99A00A5F308 /* Utils */,
+				2C73699623AAAF7F00A5F308 /* Views */,
+				2C5BCC7A23A6033E00A5DA0D /* Assets.xcassets */,
+			);
+			path = "Shared ";
+			sourceTree = "<group>";
+		};
+		2C5BCCA323A9513200A5DA0D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C5BCC7123A6033800A5DA0D /* AppDelegate.swift */,
+				2C5BCC7323A6033800A5DA0D /* SceneDelegate.swift */,
+				2CAC5B0523C1DD9D00CEB366 /* SceneDelegate copy.swift */,
+				2C5BCC7523A6033800A5DA0D /* HomeVC.swift */,
+				2C5BCCA723A9540B00A5DA0D /* RegisterVC.swift */,
+				2C5BCCA923A9548E00A5DA0D /* LoginVC.swift */,
+				2CAC5AFC23C1CE0500CEB366 /* ProductsVC.swift */,
+				2C423AAD23C8DDEC0036BDAE /* CheckoutVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C5BCCA423A9513D00A5DA0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C8D799923C0B3A900008BB4 /* Category.swift */,
+				2CAC5AF923C1CDD400CEB366 /* Products.swift */,
+				2C423AA623C786FE0036BDAE /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C5BCCA523A9515600A5DA0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C5BCCA623A9539B00A5DA0D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2C5BCC7723A6033800A5DA0D /* Main.storyboard */,
+				2C5BCC9F23A6078E00A5DA0D /* LoginStoryboard.storyboard */,
+				2C5BCC7C23A6033E00A5DA0D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2C73699623AAAF7F00A5F308 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C73699723AAAF9600A5F308 /* RoundedViews.swift */,
+				2C8D799C23C0B5B400008BB4 /* CategoryCollectionViewCell.swift */,
+				2CAC5AFF23C1D07500CEB366 /* ProductCell.swift */,
+				2C423AAF23C8E9300036BDAE /* CartItemCell.swift */,
+				2C423AB023C8E9300036BDAE /* CartItemCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2C73699923ACF99A00A5F308 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2C73699A23ACF9AB00A5F308 /* Extensions.swift */,
+				2C8D799623C0AC8900008BB4 /* Firebase +  extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2C73699C23AD0D4000A5F308 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				2C73699D23AD0D8B00A5F308 /* ForgotPasswordVC.swift */,
+				2C73699E23AD0D8B00A5F308 /* ForgotPasswordVC.xib */,
+				2CE2DD3423C5F6BE0061C990 /* ProductDetailVC.swift */,
+				2CE2DD3523C5F6BE0061C990 /* ProductDetailVC.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		2C8D79A223C0B5C500008BB4 /* XIBS */ = {
+			isa = PBXGroup;
+			children = (
+				2C8D799D23C0B5B400008BB4 /* CategoryCollectionViewCell.xib */,
+				2CAC5B0023C1D07500CEB366 /* ProductCell.xib */,
+			);
+			path = XIBS;
+			sourceTree = "<group>";
+		};
+		2CE2DD4023C616060061C990 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C5BCC8B23A6038600A5DA0D /* AppDelegate.swift */,
+				2C5BCC8D23A6038600A5DA0D /* SceneDelegate.swift */,
+				2C5BCC8F23A6038600A5DA0D /* AdminVC.swift */,
+				2CE2DD3E23C615EB0061C990 /* AddEditCategoriesVC.swift */,
+				2CE6751B23C712C3008D46A1 /* AdminProductsVC.swift */,
+				2CE6751D23C7177E008D46A1 /* AddEditProductsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6429E3B5A6EA1CD54E13AD48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC2E91B673EF07D356A6F5E8 /* Pods-artable.debug.xcconfig */,
+				2A7331F7A951A9C95D4D3D28 /* Pods-artable.release.xcconfig */,
+				DBC80801091F0BE7E06C50B7 /* Pods-artableadmin.debug.xcconfig */,
+				414CE968657E3F57F51ECFD4 /* Pods-artableadmin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C5BCC6D23A6033800A5DA0D /* artable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5BCC8223A6033E00A5DA0D /* Build configuration list for PBXNativeTarget "artable" */;
+			buildPhases = (
+				67982B9F6F8974D1D5762155 /* [CP] Check Pods Manifest.lock */,
+				2C5BCC6A23A6033800A5DA0D /* Sources */,
+				2C5BCC6B23A6033800A5DA0D /* Frameworks */,
+				2C5BCC6C23A6033800A5DA0D /* Resources */,
+				2100AC109ED2AF792285DFE9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = artable;
+			productName = artable;
+			productReference = 2C5BCC6E23A6033800A5DA0D /* artable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C5BCC8823A6038600A5DA0D /* artableadmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C5BCC9A23A6038800A5DA0D /* Build configuration list for PBXNativeTarget "artableadmin" */;
+			buildPhases = (
+				3037621CA0EC5ADCFC92A2A2 /* [CP] Check Pods Manifest.lock */,
+				2C5BCC8523A6038600A5DA0D /* Sources */,
+				2C5BCC8623A6038600A5DA0D /* Frameworks */,
+				2C5BCC8723A6038600A5DA0D /* Resources */,
+				F079CC7F17D11E6658387F9A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = artableadmin;
+			productName = artableadmin;
+			productReference = 2C5BCC8923A6038600A5DA0D /* artableadmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C5BCC6623A6033800A5DA0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Kubwensu mambwe";
+				TargetAttributes = {
+					2C5BCC6D23A6033800A5DA0D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					2C5BCC8823A6038600A5DA0D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 2C5BCC6923A6033800A5DA0D /* Build configuration list for PBXProject "artable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C5BCC6523A6033800A5DA0D;
+			productRefGroup = 2C5BCC6F23A6033800A5DA0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C5BCC6D23A6033800A5DA0D /* artable */,
+				2C5BCC8823A6038600A5DA0D /* artableadmin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C5BCC6C23A6033800A5DA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5BCC7E23A6033E00A5DA0D /* LaunchScreen.storyboard in Resources */,
+				2CAC5B0323C1D07500CEB366 /* ProductCell.xib in Resources */,
+				2C8D79A023C0B5B400008BB4 /* CategoryCollectionViewCell.xib in Resources */,
+				2C5BCC7B23A6033E00A5DA0D /* Assets.xcassets in Resources */,
+				2C5BCCA223A9482B00A5DA0D /* GoogleService-Info.plist in Resources */,
+				2C5BCC7923A6033800A5DA0D /* Main.storyboard in Resources */,
+				2CE2DD3723C5F6BE0061C990 /* ProductDetailVC.xib in Resources */,
+				2C7369A023AD0D8B00A5F308 /* ForgotPasswordVC.xib in Resources */,
+				2C423AB223C8E9300036BDAE /* CartItemCell.xib in Resources */,
+				2C5BCCA023A6078E00A5DA0D /* LoginStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5BCC8723A6038600A5DA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5BCC9823A6038800A5DA0D /* LaunchScreen.storyboard in Resources */,
+				2C8D79A123C0B5B400008BB4 /* CategoryCollectionViewCell.xib in Resources */,
+				2C5BCCAC23A955A600A5DA0D /* GoogleService-Info.plist in Resources */,
+				2CAC5B0423C1D07500CEB366 /* ProductCell.xib in Resources */,
+				2C5BCC9E23A6043D00A5DA0D /* Assets.xcassets in Resources */,
+				2C5BCC9323A6038600A5DA0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2100AC109ED2AF792285DFE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-artable/Pods-artable-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-artable/Pods-artable-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-artable/Pods-artable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3037621CA0EC5ADCFC92A2A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-artableadmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67982B9F6F8974D1D5762155 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-artable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F079CC7F17D11E6658387F9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-artableadmin/Pods-artableadmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-artableadmin/Pods-artableadmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-artableadmin/Pods-artableadmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C5BCC6A23A6033800A5DA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C423AAE23C8DDEC0036BDAE /* CheckoutVC.swift in Sources */,
+				2C73699823AAAF9600A5F308 /* RoundedViews.swift in Sources */,
+				2C423AB123C8E9300036BDAE /* CartItemCell.swift in Sources */,
+				2CE2DD3623C5F6BE0061C990 /* ProductDetailVC.swift in Sources */,
+				2C8D799A23C0B3A900008BB4 /* Category.swift in Sources */,
+				2C5BCC7623A6033800A5DA0D /* HomeVC.swift in Sources */,
+				2CFC810A23CD92D4003DBBA8 /*  StripeAPI.swift in Sources */,
+				2C8D799723C0AC8900008BB4 /* Firebase +  extensions.swift in Sources */,
+				2C5BCCA823A9540B00A5DA0D /* RegisterVC.swift in Sources */,
+				2CAC5B0123C1D07500CEB366 /* ProductCell.swift in Sources */,
+				2C423AA723C786FE0036BDAE /* User.swift in Sources */,
+				2CAC5AFD23C1CE0500CEB366 /* ProductsVC.swift in Sources */,
+				2C5BCC7223A6033800A5DA0D /* AppDelegate.swift in Sources */,
+				2C423AAA23C7A46A0036BDAE /* UserServices.swift in Sources */,
+				2C5BCC7423A6033800A5DA0D /* SceneDelegate.swift in Sources */,
+				2CE2DD3A23C60E9D0061C990 /* AdminVC.swift in Sources */,
+				2C5BCCAA23A9548E00A5DA0D /* LoginVC.swift in Sources */,
+				2C8D799E23C0B5B400008BB4 /* CategoryCollectionViewCell.swift in Sources */,
+				2CAC5AFA23C1CDD400CEB366 /* Products.swift in Sources */,
+				2C423AB523C8EF760036BDAE /* StripeCart.swift in Sources */,
+				2C73699F23AD0D8B00A5F308 /* ForgotPasswordVC.swift in Sources */,
+				2C73699B23ACF9AB00A5F308 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C5BCC8523A6038600A5DA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE2DD3C23C60F7E0061C990 /* RoundedViews.swift in Sources */,
+				2CE2DD3B23C60F7A0061C990 /* ProductDetailVC.swift in Sources */,
+				2CAC5AFE23C1CE0500CEB366 /* ProductsVC.swift in Sources */,
+				2CE2DD3923C60DFA0061C990 /* HomeVC.swift in Sources */,
+				2C5BCC9023A6038600A5DA0D /* AdminVC.swift in Sources */,
+				2C8D799B23C0B3A900008BB4 /* Category.swift in Sources */,
+				2C5BCC8C23A6038600A5DA0D /* AppDelegate.swift in Sources */,
+				2CE6751C23C712C3008D46A1 /* AdminProductsVC.swift in Sources */,
+				2CFC810D23CE1166003DBBA8 /* StripeCart.swift in Sources */,
+				2CAC5AFB23C1CDD400CEB366 /* Products.swift in Sources */,
+				2CE2DD3D23C60F870061C990 /* Extensions.swift in Sources */,
+				2C5BCC8E23A6038600A5DA0D /* SceneDelegate.swift in Sources */,
+				2CE2DD3F23C615EB0061C990 /* AddEditCategoriesVC.swift in Sources */,
+				2CAC5B0223C1D07500CEB366 /* ProductCell.swift in Sources */,
+				2C8D799F23C0B5B400008BB4 /* CategoryCollectionViewCell.swift in Sources */,
+				2CFC810C23CE1153003DBBA8 /* User.swift in Sources */,
+				2CFC810B23CE0ED1003DBBA8 /* UserServices.swift in Sources */,
+				2CE6751E23C7177E008D46A1 /* AddEditProductsVC.swift in Sources */,
+				2C8D799823C0AD9F00008BB4 /* Firebase +  extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C5BCC7723A6033800A5DA0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5BCC7823A6033800A5DA0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C5BCC7C23A6033E00A5DA0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5BCC7D23A6033E00A5DA0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2C5BCC9123A6038600A5DA0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5BCC9223A6038600A5DA0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C5BCC9623A6038800A5DA0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C5BCC9723A6038800A5DA0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C5BCC8023A6033E00A5DA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C5BCC8123A6033E00A5DA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C5BCC8323A6033E00A5DA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC2E91B673EF07D356A6F5E8 /* Pods-artable.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = artable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Petify.com.artable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C5BCC8423A6033E00A5DA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A7331F7A951A9C95D4D3D28 /* Pods-artable.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = artable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Petify.com.artable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C5BCC9B23A6038800A5DA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC80801091F0BE7E06C50B7 /* Pods-artableadmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = artableadmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Petify.com.artableadmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C5BCC9C23A6038800A5DA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414CE968657E3F57F51ECFD4 /* Pods-artableadmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = artableadmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Petify.com.artableadmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C5BCC6923A6033800A5DA0D /* Build configuration list for PBXProject "artable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5BCC8023A6033E00A5DA0D /* Debug */,
+				2C5BCC8123A6033E00A5DA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5BCC8223A6033E00A5DA0D /* Build configuration list for PBXNativeTarget "artable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5BCC8323A6033E00A5DA0D /* Debug */,
+				2C5BCC8423A6033E00A5DA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C5BCC9A23A6038800A5DA0D /* Build configuration list for PBXNativeTarget "artableadmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C5BCC9B23A6038800A5DA0D /* Debug */,
+				2C5BCC9C23A6038800A5DA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C5BCC6623A6033800A5DA0D /* Project object */;
+}

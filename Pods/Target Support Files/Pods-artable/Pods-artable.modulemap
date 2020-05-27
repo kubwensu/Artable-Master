@@ -1,0 +1,6 @@
+framework module Pods_artable {
+  umbrella header "Pods-artable-umbrella.h"
+
+  export *
+  module * { export * }
+}
